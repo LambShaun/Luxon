@@ -1,0 +1,15 @@
+{
+    "files.autoSave": "onWindowChange",
+    "workbench.colorTheme": "GitHub Dark",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "editor.fontSize": 14,
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.errorSquiggles": "disabled",
+    "clangd.arguments": [
+        "--header-insertion=never",
+        "--compile-commands-dir=build"
+    ],
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.launchTargetPath": "${workspaceFolder}/build/src/VulkanApp",
+    "cmake.launchTargetDirectory": "${workspaceFolder}/build"
+}
